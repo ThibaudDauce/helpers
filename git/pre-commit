@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+
+./vendor/bin/phpunit --colors
+./vendor/bin/phpcs src --ignore=views --standard=psr2 --colors
+./vendor/bin/phpcs tests --standard=psr2 --colors
+
